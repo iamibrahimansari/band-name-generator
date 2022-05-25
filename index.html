@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Band Name Generator</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Band Name Generator</h1>
+            <div class="form" autocomplete="off">
+                <div class="label-text">
+                    <label for="city_name">City Name</label>
+                    <input type="text" id="city_name" autocomplete="off" />
+                </div>
+                <div class="label-text">
+                    <label for="pet_name">Pet Name</label>
+                    <input type="text" id="pet_name" autocomplete="off" />
+                </div>
+                <div class="button">
+                    <button type="button" onclick="submit()">
+                        Generate band name
+                    </button>
+                </div>
+            </div>
+            <div class="disabled-button">
+                <button type="button" disabled class="output-btn"></button>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
